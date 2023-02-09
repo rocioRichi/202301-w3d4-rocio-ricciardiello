@@ -4,6 +4,8 @@ import { Footer } from "../footer/footer";
 
 import "./App.css";
 import AppRouter from "../app.router/app.router";
+import Keyboard from "../../../feature/keyboard/keyboard";
+import Actions from "../../../feature/actions/actions";
 
 export type MenuOption = {
   label: string;
@@ -19,10 +21,8 @@ const menuOptions: MenuOption[] = [
 export function App() {
   return (
     <div className="App">
-      <Header>
-        <Menu options={menuOptions}></Menu>
-      </Header>
-      <AppRouter></AppRouter>
+      <Keyboard />
+      <Actions />
       <Footer></Footer>
     </div>
   );

@@ -1,9 +1,9 @@
-type KeyProp = { key: string };
+type KeyProp = { keyText: string };
 
-function Key({ key }: KeyProp) {
+function Key({ keyText }: KeyProp) {
   return (
     <li>
-      <button className="key">{key}</button>
+      <button className="key">{keyText}</button>
     </li>
   );
 }

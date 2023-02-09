@@ -18,7 +18,7 @@ function Keyboard() {
     <div className="keyboard-container">
       <ol className="keyboard">
         {keys.map((item) => (
-          <Key key={item}></Key>
+          <Key key={item} keyText={item}></Key>
         ))}
       </ol>
     </div>
