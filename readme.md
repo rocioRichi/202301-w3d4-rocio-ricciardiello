@@ -14,11 +14,11 @@ Aquí tienes la maquetación HTML/CSS de una aplicación, tendrás que programar
 
 Separa todo en los siguientes componentes:
 
-    Info
-    Display
-    Actions
-        Action
-    Keyboard
-        Key
+    Info: Show Calling message.Get info from contex.
+    Display: Show phone number.Get info from contex.
+    Actions: Show available actions.
+        Action:onClick to interactuate with the user.Send info to context.
+    Keyboard: Show availables keys
+        Key:onClick to interactuate with the user. Send info to context.
 
 Entrega también un listado de responsabilidades.
