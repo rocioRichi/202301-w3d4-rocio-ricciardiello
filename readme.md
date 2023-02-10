@@ -12,7 +12,9 @@ Aquí tienes la maquetación HTML/CSS de una aplicación, tendrás que programar
     Al pulsar el botón "Colgar", éste debe desaparecer y debe aparecer en su lugar el botón "Llamar". El teclado tiene que habilitarse. Además, se debe borrar el número de teléfono.
     Si no ocurre nada tras cinco segundos de llamada, ésta se debe colgar automáticamente.
 
-Separa todo en los siguientes componentes:
+Separa todo en componentes:
+
+Entrega también un listado de responsabilidades.
 
     Info: Show Calling message.Get info from contex.
     Display: Show phone number.Get info from contex.
@@ -20,5 +22,3 @@ Separa todo en los siguientes componentes:
         Action:onClick to interactuate with the user.Send info to context.
     Keyboard: Show availables keys
         Key:onClick to interactuate with the user. Send info to context.
-
-Entrega también un listado de responsabilidades.
